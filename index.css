@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar {
+	background-color: black;
+
+}
+
+
+#navbarNav {
+	color: white;
+	font-weight: bold;
+}
+
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+	color: black;
+	background-color: lightgoldenrodyellow;
+    font-weight: bold;
+    border-radius: 7px
+}
+
+#header1 {
+	font-weight: bolder;
+}
