@@ -9,7 +9,6 @@ body {
 }
 
 .bg {
-
 	background-image: url("./images/vector.jpg");
 	height: 80%;
 	background-position: center;
@@ -30,7 +29,7 @@ body {
 
 #navLink:hover {
 	color: black;
-	background-color: lightgoldenrodyellow;
+	background-color: lightsteelblue;
     font-weight: bold;
     border-radius: 7px;
     transition: 0.8s;
@@ -64,8 +63,18 @@ body {
 }
 
 #thislink {
+	color: lightsteelblue;
 	font-weight: bolder;
 	text-decoration: none;
+}
+
+#thislink:hover {
+	color: ghostwhite;
+	background-color: black;
+	font-weight: bolder;
+	border-radius: 7px;
+	padding: 5px;
+	transition: 0.8s;
 }
 
 #portfolio1 {
