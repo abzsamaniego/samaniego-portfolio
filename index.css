@@ -8,26 +8,69 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-nav.navbar {
+.bg {
+
+	background-image: url("./images/vector.jpg");
+	height: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navBar {
 	background-color: black;
-
 }
 
-
-#navbarNav {
-	color: white;
+#navLink {
+	color: ghostwhite;
 	font-weight: bold;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
+#navLink:hover {
 	color: black;
 	background-color: lightgoldenrodyellow;
     font-weight: bold;
-    border-radius: 7px
+    border-radius: 7px;
+    transition: 0.8s;
+}
+
+#containerabout {
+	border-style: solid;
+	border-radius: 8px;
+}
+
+#mypic {
+	width: 400px;
 }
 
 #header1 {
 	font-weight: bolder;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#header2 {
+	font-weight: bolder;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#para1 {
+	font-weight: bold;
+	padding: 10px;
+}
+
+#thislink {
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+#portfolio1 {
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 3px;
+	padding: 5px;
 }
