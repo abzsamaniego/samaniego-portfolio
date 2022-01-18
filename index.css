@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -102,3 +106,4 @@ body {
 	width: 80px;
 	transition: 0.8s;
 }
+
