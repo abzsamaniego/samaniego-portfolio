@@ -53,7 +53,7 @@
 
 	<div id="about" class="container-fluid">
 
-		<h1 id="header1">ABOUT ME</h1>
+		<h1 id="header1">About Me</h1>
 
 		<div class="row p-3">
 
@@ -78,15 +78,12 @@
 
 		</div>
 
-		<a id="thislink" href="#top">- BACK TO TOP -</a>
-		<hr>
-
 
 		<!-- Tools Section Start -->
         <div id="tools" class="container-fluid">
 
             <!-- Core Tools Section Start -->
-            <h3 id="header2">CORE TOOLS/SKILLS</h3>
+            <h3 id="header2">Core Tools/Skills</h3>
 
             <div>
                 <div>
@@ -100,7 +97,7 @@
             <!-- Core Tools Section End -->
             
             <!-- Other Tools Section Start -->
-            <h3 id="header2">OTHER TOOLS/SKILLS</h3>
+            <h3 id="header2">Other Tools/Skills</h3>
 
             <div>
                 <div>
@@ -123,17 +120,14 @@
         </div>
         <!-- Tools Section End -->
 
-		<a id="thislink" href="#top">- BACK TO TOP -</a>
-		<hr>
-
-		<div id="projects" class="container-fluid">
+		<div id="projects" class="container-fluid mt-5">
 			
-			<h1 id="header1">PROJECTS</h1>
+			<h1 id="header1">Projects</h1>
 
 	            <div id="containerabout" class="text-dark row">
 	                <div class="pt-3 pb-3 mt-3 mb-3 col-sm-8 col-md-6 order-2 order-md-1">
 
-	                    <h5 id="header2">STATIC WEB SITE</h5>
+	                    <h5 id="header2">Static Web Page</h5>
 
 	                    <p id="para1">
 	                    	This is my first fully functional, static website, also serving as my Capstone project. The page is mobile-friendly and easy to navigate.
@@ -159,10 +153,10 @@
 	            <div id="containerabout" class="pt-2 pb-2 mt-2 mb-2 text-dark row">
 	                <div class="pt-3 pb-3 col-sm-4 mt-auto mb-auto col-md-6 order-2 order-md-2 order-sm-1">
 
-	                    <h5 id="header2">BACK-END PROJECT</h5>
+	                    <h5 id="header2">Back End Projects</h5>
 
 	                    <p id="para1">
-	                    	COMING SOON!
+	                    	UNDER CONSTRUCTION... COMING SOON!
 	                    </p>
 	                </div>
 
@@ -174,10 +168,10 @@
 				<div id="containerabout" class="text-dark row">
 	                <div class="pt-3 pb-3 mt-auto mb-auto col-sm-8 col-md-6 order-2 order-md-1">
 
-	                    <h5 id="header2">FULLSTACK PROJECT</h5>
+	                    <h5 id="header2">Fullstack Project</h5>
 
 	                    <p id="para1">
-	                    	COMING SOON!
+	                    	UNDER CONSTRUCTION... COMING SOON!
 	                    </p>
 	                </div>
 
@@ -191,39 +185,101 @@
 
 		</div>
 
-		<!-- End Content -->
-		<a id="thislink" href="#top">- BACK TO TOP -</a>
-		<hr>
 
-		<!-- Start Contact -->
-		<div id="contact" class="container-fluid">
+<!-- Contact Form Section Start -->
+		<div id="contact" class="container-fluid mt-5">
 
-			<h1 id="header1">CONTACT ME</h1>
+			<h1 id="header2">Contact Me</h1>
 
-			<form action="https://google.com">
-				<label for="firstname">First Name:</label>
-					<br>
-					<input type="text" name="firstname" required autocomplete placeholder="Input First name here.">
-					<br>
+			<div class="text-dark row">
+				
+				<div class="pt-3 pb-3 mt-3 mb-3 d-flex justify-content-center col-sm-8 col-md-6 order-2 order-md-1">
 
-				<label for="email">Email:</label>
-					<br>
-					<input type="text" name="email" required autocomplete placeholder="Input your email address here.">
-					<br>
-					
-				<label>Message: </label>
-					<br>
-				<textarea>
-				</textarea>
-					<br>
-				<button type="submit">Send Inquiry</button>
-				<br>
-				<button type="reset">Reset</button>
-			</form>
+					<form id="form" class="p-4 rounded" action="">
+
+						<div class="form-group">
+							<label class="text-dark" for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<label class="text-dark" for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+						</div>
+						<div class="form-group">
+							<label class="text-dark" for="message">Message</label>
+							<textarea class="form-control" id="message" rows="7"></textarea>
+						</div>
+						<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+
+					</form>
+
+				</div>
+
+				<div class="pt-3 pb-3 col-sm-4 mt-auto mb-auto col-md-6 order-1 order-md-2">
+					<p id="para1">
+						If you have any questions about me or my projects, feel free to send me a message. I'm also available to grab a coffee and chat. Drop a comment, question or concern and thank you for stopping by!
+					</p>
+					<p id="para1">
+						You may use the contact form, or click on the social media links below:
+					</p>
+
+					<a data-toggle="modal" data-target="#modalwarning" href="#"><img id="logo" class="ml-3 mr-3" src="./images/fbblue.png"></a>
+					<a data-toggle="modal" data-target="#modalwarning" href="#"><img id="logo" class="ml-3 mr-3" src="./images/linkedinblue.png"></a>
+
+				</div>
+
+			</div>
 
 		</div>
-		<!-- End Contact -->
+				<!-- Contact Form Section End -->
 
+		<!-- Modal1 -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Email Sent</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						For educational purposes, scripting that can prevent you from clicking this button even without any inputs, was not added yet and will be added as soon as learned.
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="modalwarning" tabindex="-1" aria-labelledby="modalwarning" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Sorry...</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						We apologize for the inconvenience, for the sake of educational purposes, the external links were disabled and used modals as a replacement to make sure that the linking mechanism of the buttons, images, and the like, are in working order. This will be replaced with actual external links once site goes live.
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
 
 	</div>
 
