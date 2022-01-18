@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .bg {
@@ -37,11 +37,6 @@ body {
     font-weight: bold;
     border-radius: 7px;
     transition: 0.8s;
-}
-
-#containerabout {
-	border-style: solid;
-	border-radius: 8px;
 }
 
 #mypic {
